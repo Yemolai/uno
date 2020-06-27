@@ -1,0 +1,28 @@
+{
+  "name": "uno",
+  "version": "1.0.0",
+  "description": "yemolai uno-like example implementation",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register **/*.spec.ts"
+  },
+  "keywords": [
+    "uno",
+    "game",
+    "server"
+  ],
+  "author": "Yemolai - Romulo Gabriel Rodrigues (yemolai@gmail.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "@types/uuid": "^8.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "uuid": "^8.1.0"
+  }
+}
